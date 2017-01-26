@@ -276,12 +276,12 @@ def vanity(packages, verbose, json, pattern):
                                 pattern=pattern)
         if total != 0:
             if version:
-                logger.debug('%s %s has been downloaded %s times!',
+                logger.debug('%s %s - %s',
                              package, version, locale.format("%d",
                                                              total,
                                                              grouping=True))
             else:
-                logger.debug('%s has been downloaded %s times!',
+                logger.debug('%s - %s',
                              package, locale.format("%d",
                                                     total,
                                                     grouping=True))
