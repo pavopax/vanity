@@ -39,7 +39,7 @@ pypi.head()
 
 # Details
 
-See [this commit](https://github.com/pavopax/vanity/commit/316cd549b1af4d8980f5cd4fc6e7f2851bb83b74)
+See edits to `vanity.py`
 
 vanity.py sends output with `logging` commands so sending output with `>` in
 command line didn't seem to work.
