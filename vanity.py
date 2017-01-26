@@ -57,11 +57,7 @@ except locale.Error:
 # https://docs.python.org/3/howto/logging.html
 logger = logging.getLogger('vanity')
 logger.setLevel(logging.DEBUG)
-ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(message)s')
-ch.setFormatter(formatter)
-logger.addHandler(ch)
+logging.basicConfig(level=logging.DEBUG, filename='results.txt')
 
 # PyPI JSON
 # http://stackoverflow.com/a/28786650
