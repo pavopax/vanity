@@ -6,6 +6,9 @@ single file, `results.txt`, and possibly converted into Pandas dataframe.
 In contrast, the original `vanity` package outputs download counts to terminal, using logging
 functionality. 
 
+Note: You shouldn't necessarily trust the numbers!
+See [this issue](https://github.com/aclark4life/vanity/issues/22).
+
 # Sample Usage
 
 Clone this repo, then run:
