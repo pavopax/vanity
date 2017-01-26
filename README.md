@@ -1,8 +1,14 @@
-# What
+# Easy PyPi download counts
 
-You can now get PyPi download counts for multiple packages, outputted into a single file, `results.txt`
+You can now get PyPi download counts for multiple packages, outputted into a
+single file, `results.txt`, and possibly converted into Pandas dataframe.
 
-Sample Usage:
+In contrast, the original `vanity` package outputs download counts to terminal, using logging
+functionality. 
+
+# Sample Usage
+
+Clone this repo, then run:
 
 	python vanity.py ipython				# one
 	python vanity.py ipython jupyter		# multiple
