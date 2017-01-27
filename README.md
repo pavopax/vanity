@@ -34,7 +34,7 @@ DEBUG:vanity:No such module or package 'pylearn2'
 etc
 ```
 
-If you want a pandas data frame like:
+If you want a pandas data frame like this...
 
 | index   | package    | downloads |
 |---------|------------|---------|
@@ -45,7 +45,7 @@ If you want a pandas data frame like:
 
 
 
-... use the following code:
+... then use the following code:
 
 
 ```python
