@@ -3,10 +3,12 @@
 You can now get PyPi download counts for multiple packages, outputted into a
 single file, `results.txt`, and possibly converted into Pandas dataframe.
 
-In contrast, the original `vanity` package outputs download counts to terminal, using logging
-functionality. 
+In contrast,
+the [main repo for `vanity`](https://github.com/aclark4life/vanity) outputs
+download counts to terminal, using logging functionality.
 
-Note: You shouldn't necessarily trust the numbers!
+Note: You shouldn't necessarily trust the numbers, but they appeared to have
+recent data in 1/2017.
 See [this issue](https://github.com/aclark4life/vanity/issues/22).
 
 # Sample Usage
